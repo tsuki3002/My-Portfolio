@@ -30,6 +30,25 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/tsuki3002/Allegheny-county-crash-data-analysis/tree/main",
   },
+  {
+    id: 4,
+    title: "Heart Rate Monitoring with Arduino",
+    description:
+      "Built a real-time heart rate monitoring system using Arduino and Python with alert triggers.",
+    image: "/projects/project4.png",
+    tags: ["Arduino", "Python", "Sensors"],
+    demoUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Carbon Emissions Prediction",
+    description:
+      "Created ML models to forecast carbon emissions using regression and time-series analysis.",
+    image: "/projects/project5.png",
+    tags: ["Machine Learning", "Pandas", "Time Series"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/tsuki3002/Carbon-emission-forecasting",
+  }
 ];
 
 export const ProjectsSection = () => {
@@ -83,13 +102,15 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a> */}
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

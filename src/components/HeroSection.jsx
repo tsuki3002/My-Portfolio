@@ -6,7 +6,14 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
-      <div className="container max-w-4xl mx-auto text-center z-10">
+      <div className="container max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10 z-10 text-center md:text-left">
+        {/* Profile Image */}
+        <img
+          src="/profile.HEIC" // Replace with your actual image file name
+          alt="Sushma Kummari"
+          className="w-60 h-80 rounded-full object-cover shadow-lg border-4 border-primary"
+        />
+
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>

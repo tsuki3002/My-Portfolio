@@ -56,10 +56,10 @@ import {
                   <div>
                     <h4 className="font-medium"> Email</h4>
                     <a
-                      href="mailto:hello@gmail.com"
+                      href="mailto:sushmakummari.data@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      kchinni066@gmail.com
+                      sushmakummari.data@gmail.com
                     </a>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ import {
                   <div>
                     <h4 className="font-medium"> Phone</h4>
                     <a
-                      href="tel:+11234567890"
+                      href="tel:+19409771720"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
                       +1 (940) 977-1720
