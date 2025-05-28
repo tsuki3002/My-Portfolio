@@ -4,17 +4,17 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-20 md:pt-0"
     >
       <div className="container max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10 z-10 text-center md:text-left">
         {/* Profile Image */}
         <img
           src="/profile.HEIC" // Replace with your actual image file name
           alt="Sushma Kummari"
-          className="w-60 h-80 rounded-full object-cover shadow-lg border-4 border-primary"
+          className="w-48 h-58 md:w-60 md:h-70 rounded-full object-cover shadow-lg border-4 border-primary"
         />
 
-        <div className="space-y-6">
+        <div className="space-y-6 md:space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
@@ -29,8 +29,7 @@ export const HeroSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I build data-driven solutions that blend machine learning, LLMs, and Agentic AI to solve real-world problems.
-            From analyzing crash data to enhancing healthcare response system, I use advanced analytics to deliver impactful,
-             intelligent outcomes. 
+            From analyzing crash data to enhancing healthcare response systems, I use advanced analytics to deliver impactful outcomes. 
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
