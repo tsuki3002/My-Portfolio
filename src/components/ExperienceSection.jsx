@@ -19,7 +19,19 @@ export const ExperienceSection = () => {
                 <p>Designed cloud-based analytics workflows and integrated data storytelling for improved student comprehension.</p>
               </div>
             </div>
-  
+            <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
+              <h3 className="text-xl font-semibold">
+                Analytics Participant – AA Hackathon
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                2025
+              </p>
+              <div className="mt-2 space-y-1 text-muted-foreground">
+                <p>Built an XGBoost model to predict American Airlines flight delays using historical and real-time flight data.</p>
+                <p>Delivered a functioning prototype and interactive dashboard within 24 hours, highlighting delay risk factors for operational insight.</p>
+              </div>
+            </div>
+
             <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
               <h3 className="text-xl font-semibold">
                 Volunteer Data Engineer – Trio Hospice

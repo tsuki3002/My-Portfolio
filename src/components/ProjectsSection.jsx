@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Patient Sentiment Dashboard for AI Symptom Checkers",
+    description: "Designed and analyzed a public survey on trust in AI symptom checkers using RoBERTa, KeyBERT, and Power BI. Visualized sentiment trends, key concerns, and demographic breakdowns in an interactive dashboard.",
+    image: "/projects/patient-sentiment.png",
+    tags: ["RoBERTa", "KeyBERT", "Power BI", "Survey Analysis", "NLP"],
+    demoUrl: "https://app.powerbi.com/reportEmbed?reportId=fb4dc9f3-6665-4aeb-93ae-eb977517851c&autoAuth=true&ctid=70de1992-07c6-480f-a318-a1afcba03983",  // Replace with your actual Power BI dashboard link
+    githubUrl: "#"
+  },  
+  {
+    id: 2,
     title: "AI Workflow Experiments with LangChain",
     description: "Built and evaluated agentic AI workflows using LangChain and OpenAI APIs.",
     image: "/projects/project1.png",
@@ -11,7 +20,7 @@ const projects = [
     githubUrl: "https://github.com/tsuki3002/AI-workflow-studies/tree/main",
   },
   {
-    id: 2,
+    id: 3,
     title: "Biomechanical IMU Movement Analysis",
     description:
       "Analyzed IMU data for joint movement using ML and signal processing.",
@@ -21,7 +30,7 @@ const projects = [
     githubUrl: "https://github.com/tsuki3002/Biomechanical-IMU-movement-analysis/tree/main",
   },
   {
-    id: 3,
+    id: 4,
     title: "Allegheny County Crash Data Analysis",
     description:
       "Analyzed 4 years of crash data with clustering, classification, and Power BI.",
@@ -31,7 +40,7 @@ const projects = [
     githubUrl: "https://github.com/tsuki3002/Allegheny-county-crash-data-analysis/tree/main",
   },
   {
-    id: 4,
+    id: 5,
     title: "Heart Rate Monitoring with Arduino",
     description:
       "Built a real-time heart rate monitoring system using Arduino and Python with alert triggers.",
@@ -40,7 +49,7 @@ const projects = [
     demoUrl: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "Carbon Emissions Prediction",
     description:
       "Created ML models to forecast carbon emissions using regression and time-series analysis.",
@@ -61,7 +70,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. EEach project reflects a hands-on approach to 
+          Here are some of my recent projects. Each project reflects a hands-on approach to 
           solving real-world problems using data, AI, and intelligent systems, combining technical 
           depth with thoughtful design and practical impact.
         </p>
