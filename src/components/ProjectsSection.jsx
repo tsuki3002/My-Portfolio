@@ -113,7 +113,7 @@ export const ProjectsSection = () => {
                         <ExternalLink size={20} />
                       </a>
                     )}
-                    {project.githubUrl && (
+                    {project.githubUrl && project.githubUrl !== "#" && (
                       <a
                         href={project.githubUrl}
                         target="_blank"
