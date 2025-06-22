@@ -4,9 +4,9 @@ const projects = [
   {
     id: 1,
     title: "Patient Sentiment Dashboard for AI Symptom Checkers",
-    description: "Designed and analyzed a public survey on trust in AI symptom checkers using RoBERTa, KeyBERT, and Power BI. Visualized sentiment trends, key concerns, and demographic breakdowns in an interactive dashboard.",
+    description: "Designed and analyzed a public survey on trust in AI symptom checkers using KeyBERT, and Power BI.",
     image: "/projects/patient-sentiment.png",
-    tags: ["RoBERTa", "KeyBERT", "Power BI", "Survey Analysis", "NLP"],
+    tags: ["KeyBERT", "Power BI", "Survey Analysis"],
     demoUrl: "https://app.powerbi.com/reportEmbed?reportId=fb4dc9f3-6665-4aeb-93ae-eb977517851c&autoAuth=true&ctid=70de1992-07c6-480f-a318-a1afcba03983",  // Replace with your actual Power BI dashboard link
     githubUrl: "#"
   },  
@@ -104,13 +104,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    {/* <a
+                    <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a> */}
+                    </a>
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
