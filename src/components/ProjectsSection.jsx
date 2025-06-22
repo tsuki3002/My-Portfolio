@@ -104,13 +104,15 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+                    {project.demoUrl && project.demoUrl !== "#" && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
