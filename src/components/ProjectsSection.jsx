@@ -21,6 +21,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "Analytics Participant – AA Hackathon",
+    description: "Built an XGBoost model and dashboard to predict American Airlines flight delays within 24 hours.",
+    image: "/projects/AAhackathon.png",
+    tags: ["XGBoost", "Flight Data", "Dashboard", "Hackathon"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
     title: "Biomechanical IMU Movement Analysis",
     description:
       "Analyzed IMU data for joint movement using ML and signal processing.",
@@ -30,7 +39,7 @@ const projects = [
     githubUrl: "https://github.com/tsuki3002/Biomechanical-IMU-movement-analysis/tree/main",
   },
   {
-    id: 4,
+    id: 5,
     title: "Allegheny County Crash Data Analysis",
     description:
       "Analyzed 4 years of crash data with clustering, classification, and Power BI.",
@@ -40,7 +49,7 @@ const projects = [
     githubUrl: "https://github.com/tsuki3002/Allegheny-county-crash-data-analysis/tree/main",
   },
   {
-    id: 5,
+    id: 6,
     title: "Heart Rate Monitoring with Arduino",
     description:
       "Built a real-time heart rate monitoring system using Arduino and Python with alert triggers.",
@@ -49,7 +58,7 @@ const projects = [
     demoUrl: "#",
   },
   {
-    id: 6,
+    id: 7,
     title: "Carbon Emissions Prediction",
     description:
       "Created ML models to forecast carbon emissions using regression and time-series analysis.",

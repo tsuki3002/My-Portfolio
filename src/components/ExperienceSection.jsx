@@ -5,8 +5,21 @@ export const ExperienceSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Work <span className="text-primary">Experience</span>
           </h2>
-  
           <div className="grid gap-6 md:grid-cols-1">
+            <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
+              <h3 className="text-xl font-semibold">
+                Data & Program Support Volunteer – Trio Hospice
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Denton, TX | July 2025 – Present
+              </p>
+              <div className="mt-2 space-y-1 text-muted-foreground">
+                <p>Built ETL pipelines and Power BI dashboards using healthcare data to improve operations and resource use by 20%.</p>
+                <p>Automated reports and tracked KPIs with Python, SQL, and Tableau, saving 12+ hours weekly and improving outreach.</p>
+              </div>
+            </div>
+
+
             <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
               <h3 className="text-xl font-semibold">
                 Graduate Teaching Assistant – University of North Texas
@@ -19,7 +32,7 @@ export const ExperienceSection = () => {
                 <p>Designed cloud-based analytics workflows and integrated data storytelling for improved student comprehension.</p>
               </div>
             </div>
-            <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
+            {/* <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
               <h3 className="text-xl font-semibold">
                 Analytics Participant – AA Hackathon
               </h3>
@@ -30,20 +43,7 @@ export const ExperienceSection = () => {
                 <p>Built an XGBoost model to predict American Airlines flight delays using historical and real-time flight data.</p>
                 <p>Delivered a functioning prototype and interactive dashboard within 24 hours, highlighting delay risk factors for operational insight.</p>
               </div>
-            </div>
-
-            <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
-              <h3 className="text-xl font-semibold">
-                Volunteer Data Engineer – Trio Hospice
-              </h3>
-              <p className="text-sm text-muted-foreground">
-                Denton, TX | Nov 2023 – Present
-              </p>
-              <div className="mt-2 space-y-1 text-muted-foreground">
-                <p>Developed scalable pipelines for healthcare service data, improving scheduling and operational efficiency.</p>
-                <p>Enhanced data integration systems to support timely patient care decisions and trend analysis.</p>
-              </div>
-            </div>
+            </div> */}
   
             <div className="bg-card border border-border rounded-2xl shadow-sm p-6 transition-colors">
               <h3 className="text-xl font-semibold">
